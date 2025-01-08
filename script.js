@@ -1,6 +1,6 @@
 let counter = 1; // Initialize a global counter
 
-function insertRow() {
+function insert_Row() {
   // Get the table element by its ID
   let table = document.querySelector("#sampleTable");
 
