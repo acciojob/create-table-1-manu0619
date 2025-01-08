@@ -1,4 +1,4 @@
-let counter = 1; // Initialize a global counter
+// let counter = 1; // Initialize a global counter
 
 function insert_Row() {
   // Get the table element by its ID
@@ -6,7 +6,7 @@ function insert_Row() {
 
   // Add a new row with incremented cell values using innerHTML
   table.innerHTML =
-    `<tr><td>New Cell${counter}</td><td>New Cell${counter + 1}</td></tr>` +
+    `<tr><td>New Cell1</td><td>New Cell2</td></tr>` +
     table.innerHTML;
 
   // Increment the counter by 2 for the next row
